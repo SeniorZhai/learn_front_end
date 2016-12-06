@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>dropdowns</title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown1 {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropbtn {
+            background-color: #4caf50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown-content1 {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        .dropdown-content1 a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content1 a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown1:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+<p>
+    <div class="dropdown">
+        <span>Mouse over me</span>
+        <div class="dropdown-content"/>
+        <p>Hello World!</p>
+    </div>
+    </p>
+<p>
+<br>
+<br>
+<br>
+    <div class="dropdown1">
+    <button class="dropbtn">下拉菜单</button>
+    <div class="dropdown-content1">
+        <a href="#">11111</a>
+        <a href="#">22222</a>
+        <a href="#">33333</a>
+    </div>
+    </div>
+</p>
+</body>
+</html>
